@@ -88,7 +88,7 @@ $trans_request->setRefId($refID);
 $trans_request->setTransactionRequest($transactionRequestType);
 $controller = new AnetController\CreateTransactionController($trans_request);
 
-$response = $controller->executeWithApiResponse(constant("\\net\authorize\api\constants\ANetEnvironment::" + ANETENVIRONMENT));
+$response = $controller->executeWithApiResponse(constant("\\net\authorize\api\constants\ANetEnvironment::".ANETENVIRONMENT));
 
 if ($response != null) {
     // Check to see if the API request was successfully received and acted upon
