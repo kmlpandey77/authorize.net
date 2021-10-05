@@ -1,0 +1,14 @@
+{
+    "name": "kamal/authorize.net",
+    "type": "library",
+    "license": "MIT",    
+    "authors": [
+        {
+            "name": "Kamal Pandey.",
+            "email": "kmlpandey77@gmail.com"
+        }
+    ],
+    "require": {
+        "authorizenet/authorizenet": "^2.0"
+    }
+}
